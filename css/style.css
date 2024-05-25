@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.span1{
+	color: green;
+	font-size: 50px;
+}
+.cover-image
+{
+	height: 450px;
+	background: url('../img/img1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 200px;
+}
+.heading h4{
+	font-size: 55px;
+}
+.over:hover {
+  color: green;
+}
+.about{
+	background-image: url("../img/ladak6.png");
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.cover-imag{
+	height: 450px;
+	background: url('../img/becp1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 200px;
+}
+.message{
+	display: none;
+}

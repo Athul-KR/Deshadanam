@@ -1,0 +1,14 @@
+$(document).ready(function(){
+  var letters = $('.over').text();
+  var nHTML = '';
+  for(var letter of letters) {
+    nHTML+="<span class='x'>"+letter+"</span>";
+  }
+  $('.over').html(nHTML);
+  $('#view').click(()=>{
+    $('.message').css("display", "block")
+  })
+  $('#view').dblclick(()=>{
+    $('.message').css("display", "none")
+  })
+})
